@@ -1,0 +1,19 @@
+# Langchain Core and Community Components
+langchain==0.1.16
+langchain-community==0.0.32
+
+# Vector Store
+chromadb==0.4.24
+
+# Embeddings Model
+sentence-transformers==2.6.1
+
+# PDF Loader Dependency
+pypdf==4.2.0
+
+# Translation Library
+deep-translator==1.11.4
+
+# Note: httpx will be installed automatically as a dependency
+# by chromadb (likely >=0.27.0), which is compatible
+# with deep-translator and langchain components.
